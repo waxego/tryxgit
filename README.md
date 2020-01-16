@@ -1,9 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>My App</title>
-</head>
-<body>
-  This is my app!
-  login form
-</body> 
+@media screen and (max-width: 800px){
+	.show-menu-btn,.hide-menu-btn{
+		display: block;
+	}
+	.menu{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #ff5500;
+		right: -100%; 
+		top: 0;
+		text-align: center;
+		padding: 80px 0;
+		line-height: normal;
+		transition: 0.7s;  
+	}
+	.menu a{ 
+		display:block; 
+		padding: 20px; 
+	}
+	.hide-menu-btn{
+		position: absolute;
+		top: 40px;
+		right: 40px;
+	}
+	#chk:checked ~ .menu{
+		right: 0;
+
+	}
+}
