@@ -12,7 +12,7 @@
 		text-align: center;
 		padding: 80px 0;
 		line-height: normal;
-		transition: 0.7s;  
+		transition: 0.8s;  
 	}
 	.menu a{ 
 		display:block; 
